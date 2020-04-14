@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="mx-4 lg:mx-20 py-16">
+  {% if api %}
+    {% if api == 'error' %}
+      There was a problem with your ticker symbol..please try again
+    {% else %}
+           <h1 class="text-3xl font-medium"> {{ api.companyName }} </h1>
+                 Price:${{ api.latestPrice }}<br>
+                 Previous Close:{{ api.previousClose }}<br>
+                 Market Cap:{{ api.marketCap }}<br>
+                 YTD Change:{{ api.ytdChange }}<br>
+                 52wk High:{{ api.week52High }}<br>
+                 52wk Low:{{ api.week52Low }}<br>
+
+
+
+     {% endif %}
+    {% endif %}
+
+</section>
+{% endblock %}

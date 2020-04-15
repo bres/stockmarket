@@ -6,12 +6,19 @@ from django.shortcuts import render
 def home(request):
     import requests
     import json
-    api_request=requests.get("https://sandbox.iexapis.com/stable/stock/AAPL/quote?token=Tpk_a5a08a1f80354252a30520ef83683ecb")
-    try:
-        api=json.loads(api_request.content)
-    except Exception as e:
-        api ="error"
+    if request.method == 'POST':
+        ticker=request.POST['ticker']
+        api_request = requests.get("https://sandbox.iexapis.com/stable/stock/" + ticker + "/quote?token=Tpk_a5a08a1f80354252a30520ef83683ecb")
+        try:
+            api = json.loads(api_request.content)
+        except Exception as e:
+            api = "error"
+        return render(request, 'home.html', {'api':api})
 
-    return render(request,'home.html',{'api':api })
+    else:
+        return render(request,'home.html',{'ticker':"bla bla bla"})
+
+
+
 def about(request):
     return render(request,'about.html',{})

@@ -2,7 +2,11 @@
 
 {% block content %}
 <section class="mx-4 lg:mx-20 py-16">
-  {% if api %}
+    {% if ticker %}
+    {{ ticker }}
+    {% endif %}
+
+    {% if api %}
     {% if api == 'error' %}
       There was a problem with your ticker symbol..please try again
     {% else %}
@@ -13,11 +17,8 @@
                  YTD Change:{{ api.ytdChange }}<br>
                  52wk High:{{ api.week52High }}<br>
                  52wk Low:{{ api.week52Low }}<br>
-
-
-
      {% endif %}
-    {% endif %}
+     {% endif %}
 
 </section>
 {% endblock %}

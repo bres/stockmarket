@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88a2ba22-e316-4873-8784-200db7b3ef12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/templates/add_stock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stocks/quotes/templates/delete_stock.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocks/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocks/quotes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/quotes/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocks/quotes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/quotes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocks/quotes/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/quotes/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stocks/quotes/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/quotes/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stocks/quotes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/quotes/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocks/quotes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/quotes/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stocks/quotes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/quotes/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -34,6 +41,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -47,5 +56,11 @@
       <updated>1586807411370</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="224" y="102" key="SettingsEditor" timestamp="1586969685931">
+      <screen x="0" y="33" width="1440" height="867" />
+    </state>
+    <state x="224" y="102" key="SettingsEditor/1440.0.1600.900/0.33.1440.867@0.33.1440.867" timestamp="1586969685931" />
   </component>
 </project>
